@@ -67,6 +67,8 @@ int main()
 
 	std::cout << "You entered: " << userName << "\n";
 
+	//a comment! (again!) 
+
 	//int number1; 
 	//int number2;
 	//int number3 = number1 +number2;
