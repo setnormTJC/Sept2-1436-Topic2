@@ -42,13 +42,15 @@ This is a comment, comments are useful for "documentation" (among other things)
 	//return 0;  //optional 
 }
 
-int main()
+/*This function also includes some random-ish variable initializations to demo the 
+concept of "data types"*/
+void getUserName()
 {
 	/*code "snippets"*/
 
-	/*some random (hopefully instructive) variable initializations*/
+/*some random (hopefully instructive) variable initializations*/
 	const float PI = 3.14; //the decimal point can "float" 
-	
+
 	auto someNumber = 12;  //the SINGLE equals sign is called the "assignment operator" 
 
 	auto someLetter = 'z'; //zed
@@ -61,7 +63,7 @@ int main()
 	//std::cin >> userName;  //this means get character input
 	//cin >> is ONE way to get user input from keyboard whilst program is running
 
-	std::getline(std::cin, userName); 
+	std::getline(std::cin, userName);
 	//std::getline(filename, userName); //this gets input from a file 
 
 
@@ -73,8 +75,8 @@ int main()
 	//int number2;
 	//int number3 = number1 +number2;
 
-	std::cout << "Art thou happy with this?\n"; 
-	std::string happyResponse; 
+	std::cout << "Art thou happy with this?\n";
+	std::string happyResponse;
 	std::getline(std::cin, happyResponse);
 
 	if (happyResponse == "no") //NOTE the double = sign! (this is the "equality" operator
@@ -85,6 +87,11 @@ int main()
 
 		std::cout << "UPDATED user name to: " << userName << "\n";
 	}
+}
+
+int main()
+{
+	
 
 
 }
