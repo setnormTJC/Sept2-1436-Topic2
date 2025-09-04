@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a4801766-57fd-425c-a580-86da3823d532}</ProjectGuid>
-    <RootNamespace>Sept21436Topic2</RootNamespace>
+    <ProjectGuid>{5877c07c-9d5e-49d7-8e8b-bb02430312ba}</ProjectGuid>
+    <RootNamespace>GasProgram</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>GasolineProgram</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -123,8 +124,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Sept2-1436-Topic2.cpp" />
-    <ClCompile Include="studentTetris.cpp" />
+    <ClCompile Include="GasolineProgram.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

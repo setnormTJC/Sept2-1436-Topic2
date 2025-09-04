@@ -89,10 +89,49 @@ void getUserName()
 	}
 }
 
+
+//std::string response; //a "global" variable 
+
+void demoingReadingAUserName()
+{
+	char someLetter = 'z';
+	someLetter = 'a';
+	//angle bracket 
+	std::cout << "The variable someLetter contains the value: " << someLetter << "\n";
+
+	std::string myName = "Bear";
+
+	std::cout << "My name is " << myName << "\n";
+
+	std::cout << " Do you want to change that?\n";
+
+
+
+	std::string response = ""; //initialize variabvle to the empty string 
+	std::getline(std::cin, response); //cin means get character input from keyboard whilst program is running
+
+
+	std::cin.clear(); //clears the "newline character"
+
+	if (response == "yes")
+	{
+		std::cout << "Enter your NEW name:\n";
+		std::getline(std::cin, myName);
+
+		std::cout << "Your name got changed to: " << myName << "\n";
+	}
+}
+
 int main()
 {
-	
+	//getUserName(); 
+	//demoingSomeThings(); 
+	//demoingReadingAUserName(); 
 
+	while (true)
+	{
+		std::cout << " adfasdfasd" << '\n';
+	}
 
 }
 
