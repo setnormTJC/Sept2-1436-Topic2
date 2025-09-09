@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sept2-1436-Topic2", "Sept2-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GasolineProgram", "GasProgram\GasProgram.vcxproj", "{5877C07C-9D5E-49D7-8E8B-BB02430312BA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModOperatorDemo", "ModOperatorDemo\ModOperatorDemo.vcxproj", "{C41DB67C-1B72-4998-BFF9-37C0F268F4B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{5877C07C-9D5E-49D7-8E8B-BB02430312BA}.Release|x64.Build.0 = Release|x64
 		{5877C07C-9D5E-49D7-8E8B-BB02430312BA}.Release|x86.ActiveCfg = Release|Win32
 		{5877C07C-9D5E-49D7-8E8B-BB02430312BA}.Release|x86.Build.0 = Release|Win32
+		{C41DB67C-1B72-4998-BFF9-37C0F268F4B6}.Debug|x64.ActiveCfg = Debug|x64
+		{C41DB67C-1B72-4998-BFF9-37C0F268F4B6}.Debug|x64.Build.0 = Debug|x64
+		{C41DB67C-1B72-4998-BFF9-37C0F268F4B6}.Debug|x86.ActiveCfg = Debug|Win32
+		{C41DB67C-1B72-4998-BFF9-37C0F268F4B6}.Debug|x86.Build.0 = Debug|Win32
+		{C41DB67C-1B72-4998-BFF9-37C0F268F4B6}.Release|x64.ActiveCfg = Release|x64
+		{C41DB67C-1B72-4998-BFF9-37C0F268F4B6}.Release|x64.Build.0 = Release|x64
+		{C41DB67C-1B72-4998-BFF9-37C0F268F4B6}.Release|x86.ActiveCfg = Release|Win32
+		{C41DB67C-1B72-4998-BFF9-37C0F268F4B6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
